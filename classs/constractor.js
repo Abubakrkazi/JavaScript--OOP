@@ -4,6 +4,7 @@ class Person {
     this.age = age;           // set the object's age
   }
 
+  
   introduce() {
     return `My name is ${this.name} and I am ${this.age} years old.`;
   }
